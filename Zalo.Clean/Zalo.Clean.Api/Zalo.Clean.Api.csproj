@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zalo.Clean.Application\Zalo.Clean.Application.csproj" />
+    <ProjectReference Include="..\Zalo.Clean.Infrastructure.Persistance\Zalo.Clean.Infrastructure.Persistance.csproj" />
+    <ProjectReference Include="..\Zalo.Clean.Infrastructure\Zalo.Clean.Infrastructure.csproj" />
+    <ProjectReference Include="..\Zalo.LeaveManagement.Identity\Zalo.LeaveManagement.Identity.csproj" />
+  </ItemGroup>
+
+</Project>

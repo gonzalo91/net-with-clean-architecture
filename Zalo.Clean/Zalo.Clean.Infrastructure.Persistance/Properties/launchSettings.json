@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Zalo.Clean.Infrastructure.Persistance": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64681;http://localhost:64683"
+    }
+  }
+}

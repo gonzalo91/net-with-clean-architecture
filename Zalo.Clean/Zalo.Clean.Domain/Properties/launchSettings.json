@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Zalo.Clean.Domain": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64684;http://localhost:64686"
+    }
+  }
+}
